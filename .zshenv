@@ -1,0 +1,6 @@
+export XDG_CONFIG_HOME="/Users/ratiu5/.config"
+export XDG_DATA_HOME="/Users/ratiu5/.local/share"
+export XDG_BIN_HOME="/Users/ratiu5/.local/bin"
+export XDG_CACHE_HOME="/Users/ratiu5/.cache"
+export ZDOTDIR="/Users/ratiu5/.config/zsh"
+export HISTFILE="/Users/ratiu5/.local/share/zsh/history"
