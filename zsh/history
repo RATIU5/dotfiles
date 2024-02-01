@@ -1,0 +1,4 @@
+dev
+source ~/.config/zsh/.zshrc
+source ~/.zshenv
+echo $XDG_CONFIG_HOME/starship/starship.toml

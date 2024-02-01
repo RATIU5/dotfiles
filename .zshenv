@@ -5,3 +5,5 @@ export XDG_CACHE_HOME="/Users/ratiu5/.cache"
 export ZDOTDIR="/Users/ratiu5/.config/zsh"
 export HISTFILE="/Users/ratiu5/.local/share/zsh/history"
 export N_PREFIX=$XDG_BIN_HOME/.n
+export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship/starship.toml
+export STARSHIP_CACHE=$XDG_CACHE_HOME/.starship/cache
