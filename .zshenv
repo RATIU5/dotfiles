@@ -4,3 +4,4 @@ export XDG_BIN_HOME="/Users/ratiu5/.local/bin"
 export XDG_CACHE_HOME="/Users/ratiu5/.cache"
 export ZDOTDIR="/Users/ratiu5/.config/zsh"
 export HISTFILE="/Users/ratiu5/.local/share/zsh/history"
+export N_PREFIX=$XDG_BIN_HOME/.n
