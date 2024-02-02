@@ -72,3 +72,8 @@ for scope, table in pairs(options) do
     vim[scope][setting] = value
   end
 end
+
+-- if vim.fn.match(vim.o.term, '256color') ~= -1 then
+--   -- disable Background Color Erase (BCE) by setting 't_ut' to an empty string
+--   vim.api.nvim_set_option('t_ut', '')
+-- end
