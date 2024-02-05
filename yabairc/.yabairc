@@ -50,4 +50,5 @@ yabai -m config                                 \
 
 yabai -m rule --add app="^System Settings$" manage=off
 
+yabai -m config layout bsp
 echo "yabai configuration loaded.."
