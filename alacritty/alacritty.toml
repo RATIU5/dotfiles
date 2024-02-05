@@ -22,3 +22,8 @@ decorations = "buttonless"
 opacity = 1.0
 startup_mode = "Windowed"
 title = "Terminal"
+dynamic_padding = false
+
+[window.padding]
+x = 12
+y = 12
