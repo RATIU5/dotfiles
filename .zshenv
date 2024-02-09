@@ -1,9 +1,10 @@
-export XDG_CONFIG_HOME="/Users/ratiu5/.config"
-export XDG_DATA_HOME="/Users/ratiu5/.local/share"
-export XDG_BIN_HOME="/Users/ratiu5/.local/bin"
-export XDG_CACHE_HOME="/Users/ratiu5/.cache"
-export ZDOTDIR="/Users/ratiu5/.config/zsh"
-export HISTFILE="/Users/ratiu5/.local/share/zsh/history"
+export HOME_DIR="/Users/ratiu5"
+export XDG_CONFIG_HOME=$HOME_DIR"/.config"
+export XDG_DATA_HOME=$HOME_DIR"/.local/share"
+export XDG_BIN_HOME=$HOME_DIR"/.local/bin"
+export XDG_CACHE_HOME=$HOME_DIR"/.cache"
+export ZDOTDIR=$XDG_CONFIG_HOME"/zsh"
+export HISTFILE=$XDG_DATA_HOME"/zsh/history"
 export N_PREFIX=$XDG_BIN_HOME/.n
 export STARSHIP_CONFIG=$XDG_CONFIG_HOME/starship/starship.toml
 export STARSHIP_CACHE=$XDG_CACHE_HOME/.starship/cache
