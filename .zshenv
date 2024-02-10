@@ -1,8 +1,7 @@
-export HOME_DIR="/Users/ratiu5"
-export XDG_CONFIG_HOME=$HOME_DIR"/.config"
-export XDG_DATA_HOME=$HOME_DIR"/.local/share"
-export XDG_BIN_HOME=$HOME_DIR"/.local/bin"
-export XDG_CACHE_HOME=$HOME_DIR"/.cache"
+export XDG_CONFIG_HOME=$HOME"/.config"
+export XDG_DATA_HOME=$HOME"/.local/share"
+export XDG_BIN_HOME=$HOME"/.local/bin"
+export XDG_CACHE_HOME=$HOME"/.cache"
 export ZDOTDIR=$XDG_CONFIG_HOME"/zsh"
 export HISTFILE=$XDG_DATA_HOME"/zsh/history"
 export N_PREFIX=$XDG_BIN_HOME/.n
