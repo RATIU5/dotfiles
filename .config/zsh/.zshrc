@@ -20,3 +20,12 @@ alias ....='cd ../../..'
 alias c='clear'
 alias mkcd='mkdir $1 && cd $1'
 alias vim='nvim'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias ls='eza'
+alias lst='eza --tree'
+alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
+alias fzb='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
+alias neofetch='macchina'
+
+export PATH=$N_PREFIX/bin:$PATH
