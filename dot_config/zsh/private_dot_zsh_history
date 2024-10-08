@@ -1,0 +1,112 @@
+dev
+cd dotfiles
+nvim
+echo $path
+echo $PATH
+python3
+cd ~
+cd .local
+cd bin
+ls -a
+touch git-filter-repo
+nvim git-filter-repo
+dev
+cd dotfiles
+git-filter-repo --path dir --invert-paths .zsh_sessions
+python3 git-filter-repo --path dir --invert-paths .zsh_sessions
+python3 ~/.local/bin/git-filter-repo --path dir --invert-paths .zsh_sessions
+python3 ~/.local/bin/git-filter-repo --path .zsh_sessions --invert-paths
+cd ..
+rm -rf dotfiles
+git clone https://github.com/RATIU5/dotfiles.git
+cd dotfiles
+python3 ~/.local/bin/git-filter-repo --path .zsh_sessions --invert-paths
+gst
+python3 ~/.local/bin/git-filter-repo --path .zsh_history --invert-paths
+git remote set origin https://github.com/RATIU5/dotfiles.git
+git remote origin set https://github.com/RATIU5/dotfiles.git
+git remote add origin https://github.com/RATIU5/dotfiles.git
+gst
+gpo mac
+git push https://github.com/RATIU5/dotfiles.git --force
+brew install git-filter-repo
+git filter-repo
+git filter-repo --invert-paths --path .zsh_sessions
+git filter-repo --invert-paths --path .zsh_history
+git filter-repo --invert-paths --path .zsh_sessions/
+git filter-repo --invert-paths --path .zsh_history
+git push --force --all
+git remote add origin https://github.com/RATIU5/dotfiles.git
+git push --force --all
+git pull --rebase
+git pull origin mac --rebase
+gst
+git stash show -p | git apply -R
+nvim .gitignore
+gsr
+gst
+gaa
+gcm "edit: rm history from git"
+gpo mac
+git filter-repo --invert-paths --path .zsh_history
+git filter-repo --invert-paths --path .zsh_sessions
+git remote add origin https://github.com/RATIU5/dotfiles.git
+git push origin --force --all
+git branch -m main
+git branch -D main
+git branch -m main
+gpo main
+gpl origin main
+git filter-repo --invert-paths --path .zsh_history
+git filter-repo --invert-paths --path .zsh_sessions
+git remote add origin https://github.com/RATIU5/dotfiles.git
+git push origin --force --all
+gst
+..
+rm -rf dotfiles
+git clone https://github.com/RATIU5/dotfiles.git
+cd dotfiles
+git filter-repo --invert-paths --path .zsh_history
+git filter-repo --invert-paths --path .zsh_sessions
+git remote add origin https://github.com/RATIU5/dotfiles.git
+git push origin --force --all
+git filter-repo --invert-paths --path .zsh_sessions
+git push origin --force --all
+git remote add origin https://github.com/RATIU5/dotfiles.git
+git add .
+gst
+git add *
+git add -a
+git add -A
+gst
+git checkout e040cf1b86c21194f4830285379cfbd07b1a520e
+ls -a
+cd .config/zsh
+ls -a
+cat history
+git checkout 47917376de0bf6dbbce6e81b76df9ba93acdc9aa
+ls -a
+gco main
+..
+..
+ls -a
+cd .config
+ls -a
+cd .wrangler
+ls -a
+..
+rm -rf wrangler
+..
+rm -rf .git
+ls -a
+cd .config
+brew install chezmoi
+cd ..
+chezmoi init
+ls -a
+touch .chezmoiignore
+touch .chezmoi.toml.tmpl
+find brew
+where brew
+chezmoi edit-config-template
+tmux
