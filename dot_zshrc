@@ -1,13 +1,25 @@
 # extend PATH with brew path
 export PATH="/opt/homebrew/bin/:$PATH"
-
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(starship init zsh)"
-
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias dev='cd ~/Developer'
+alias doc='cd ~/Documents'
+alias des='cd ~/Desktop'
+alias dow='cd ~/Downloads'
+alias home='cd ~'
 alias ls='eza'
+alias find='fd'
+alias cd='z'
+alias cat='bat --paging=never'
 alias lst='eza --tree'
 alias fzf='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
 alias fzb='fzf --preview "bat --color=always --style=numbers --line-range=:500 {}"'
 alias neofetch='macchina'
+alias fetch='macchina'
+
+export PATH=/opt/homebrew/opt/postgresql@16/bin:$PATH
+
+eval "$(zoxide init zsh)"
