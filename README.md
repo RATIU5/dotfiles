@@ -17,7 +17,7 @@ This is my personal MacOS dotfile configuration. It includes tools such as:
 - [`eza`](https://github.com/eza-community/eza) - Modern `ls`
 - [`bat`](https://github.com/sharkdp/bat) - cat(1) clone with wings
 - [`neovim`](https://neovim.io/) - Vim on steroids
-  - [`neovim config`](https://github.com/RATIU5/nvim-config) - My own Neovim config written in Lua
+  - [`neovim config`](https://github.com/RATIU5/nvim) - My own Neovim config written in Lua
 - [`git`](https://git-scm.com/) - No comment
   - [`lazygit`](https://github.com/jesseduffield/lazygit) - simple terminal UI for git commands
 - [`rust`](https://www.rust-lang.org/), [`go`](https://golang.org/) [`zig`](https://ziglang.org/) - For programming
