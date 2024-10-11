@@ -18,17 +18,17 @@ ask_for_sudo
 if [ "$SHELL" != "/bin/zsh" ]; then
     # macOS typically uses /usr/local/bin/zsh or /bin/zsh
     ZSH_PATH=$(command -v zsh)
-    
+
     # Check if zsh is already in /etc/shells
     if ! grep -q "$ZSH_PATH" /etc/shells; then
         sudo sh -c "echo $ZSH_PATH >> /etc/shells"
     fi
-    
+
     chsh -s "$ZSH_PATH"
     print_result $? "Set shell to zsh"
 fi
 
-execute "if [ ! -d $HOME/.config/nvim ]; then git clone git@github.com:RATIU5/nvim-config.git $HOME/.config/nvim; fi;" "Clone neovim config repo"
+execute "if [ ! -d $HOME/.config/nvim ]; then git clone git@github.com:RATIU5/nvim.git $HOME/.config/nvim; fi;" "Clone neovim config repo"
 
 execute "defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false" "Keyboard: Disable tooltip when holding key"
 
