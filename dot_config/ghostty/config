@@ -29,7 +29,7 @@ theme = catppuccin-mocha
 # depending on your `window-inherit-font-size` setting. If that setting is
 # true, only the first window will be affected by this change since all
 # subsequent windows will inherit the font size of the previous window.
-font-size = 18
+font-size = 16
 
 
 # Hide the mouse immediately when typing. The mouse becomes visible again when
@@ -61,8 +61,8 @@ window-decoration = true
 # will appear in the logs.
 #
 # Changing these values will only apply after restart.
-window-padding-x = 16
-window-padding-y = 10
+window-padding-x = 12
+window-padding-y = 4
 
 # The opacity level (opposite of transparency) of the background. A value of
 # 1 is fully opaque and a value of 0 is fully transparent. A value less than 0
