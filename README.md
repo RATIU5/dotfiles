@@ -1,5 +1,9 @@
 # [RATIU5](https://github.com/RATIU5)’s dotfiles
 
+<!-- Image of terminal -->
+
+![Terminal](/images/terminal1.png)
+
 ## Details
 
 This is my personal MacOS dotfile configuration. It includes tools such as:
