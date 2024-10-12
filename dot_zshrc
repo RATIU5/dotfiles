@@ -6,7 +6,7 @@ eval "$(starship init zsh)"
 # Git aliases
 alias gcm='git commit -m'
 alias gaa='git add -A'
-alias gco='git checkout -b'
+alias gco='git checkout'
 alias gpl='git pull origin'
 alias gps='git push'
 alias gst='git status'
